@@ -306,3 +306,36 @@ label {
         margin-left: 50px;
     }
 }
+
+@media screen and (max-width: 768px) {
+     .navigation-bar {
+        width: 768px;
+    }
+    
+    .name-logo {
+        margin-left: 15px;
+    }
+
+    ul {
+        padding-left: 480px;
+    }
+
+    .center {
+        text-align: left;
+    }
+
+    .main {
+        margin-left: 15px;
+        width: 678px;
+        height: 560px;
+    }
+
+    .portfolio-center {
+        text-align: left;
+    }
+
+    .portfolio-main {
+        width: 678px;
+        margin-left: 15px;
+    }
+}
