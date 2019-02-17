@@ -284,7 +284,7 @@ label {
     }
 
     ul {
-        padding-left: 675px;
+        padding-left: 725px;
     }
 
     .center {
@@ -304,6 +304,10 @@ label {
     .portfolio-main {
         width: 590px;
         margin-left: 50px;
+    }
+
+    .form-input {
+        margin: 26px;
     }
 }
 
