@@ -317,7 +317,7 @@ label {
     }
 
     ul {
-        padding-left: 480px;
+        padding-left: 535px;
     }
 
     .center {
@@ -326,7 +326,7 @@ label {
 
     .main {
         margin-left: 15px;
-        width: 678px;
+        width: 735px;
         height: 560px;
     }
 
@@ -335,12 +335,16 @@ label {
     }
 
     .portfolio-main {
-        width: 678px;
+        width: 735px;
         margin-left: 15px;
     }
 }
 
 @media screen and (max-width:640px) {
+    .navigation-bar {
+        width: 640px;
+    }
+
     ul {
     position: absolute;
     margin-top: 100px;
@@ -364,11 +368,11 @@ label {
 
     .main {
         margin-top: 56px;
-        width: 565px;
+        width: 607px;
     }
 
     .portfolio-main {
-        width: 565px;
+        width: 607px;
         margin-left: 15px;
         margin-top: 56px;
     }
