@@ -339,3 +339,31 @@ label {
         margin-left: 15px;
     }
 }
+
+@media screen and (max-width:640px) {
+    ul {
+    position: absolute;
+    margin-top: 100px;
+    clear:both;
+    height: 50px;
+    width: 640px;
+    padding-top: 10px;
+    padding-left: 209px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;  
+    }
+
+    ul li {
+        padding-top: 0px;
+    }
+
+    .name-logo {
+        width: 640px;
+        margin-left: 0;
+    }
+
+    .main {
+        margin-top: 56px;
+        width: 565px;
+    }
+}
