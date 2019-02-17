@@ -366,4 +366,10 @@ label {
         margin-top: 56px;
         width: 565px;
     }
+
+    .portfolio-main {
+        width: 565px;
+        margin-left: 15px;
+        margin-top: 56px;
+    }
 }
