@@ -308,7 +308,7 @@ label {
 }
 
 @media screen and (max-width: 768px) {
-     .navigation-bar {
+    .navigation-bar {
         width: 768px;
     }
     
@@ -327,7 +327,7 @@ label {
     .main {
         margin-left: 15px;
         width: 735px;
-        height: 560px;
+        height: 600px;
     }
 
     .portfolio-center {
@@ -337,6 +337,38 @@ label {
     .portfolio-main {
         width: 735px;
         margin-left: 15px;
+        height: 875px;
+    }
+
+    #portfolio-pic {
+        width: 200px;
+        height: 250px;
+        padding: 15px 20px 5px 25px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .form-input {
+        margin: 29px 25px 25px 20px;
+        padding-left: 5px;
+    }
+
+    .image {
+        width: 290px;
+        height: 210px;
+    }
+
+    .portfolio-p {
+        padding-top: 15px;
+        width: 290px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .image-1, .image-3, .image-5 {
+        padding-left: 55px;
     }
 }
 
