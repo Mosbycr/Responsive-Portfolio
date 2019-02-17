@@ -341,18 +341,21 @@ label {
 }
 
 @media screen and (max-width:640px) {
+    body {
+        width: auto;
+    }
+    
     .navigation-bar {
         width: 640px;
     }
 
     ul {
-    position: absolute;
-    margin-top: 100px;
+    position: relative;
     clear:both;
     height: 50px;
-    width: 640px;
     padding-top: 10px;
     padding-left: 209px;
+    padding-right:208.92px;
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;  
     }
@@ -363,7 +366,7 @@ label {
 
     .name-logo {
         width: 640px;
-        margin-left: 0;
+        margin: 0;
     }
 
     .main {
